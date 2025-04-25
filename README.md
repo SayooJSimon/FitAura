@@ -1,76 +1,50 @@
-# FitAura
-# 🩺 FitAura – Your AI-Powered Recovery & Hydration Coach
+# Welcome to your Expo app 👋
 
-**FitAura** is an AI-enabled mobile app designed to help users optimize their fitness, hydration, recovery, and overall well-being. Built during **GCEM Hacks 2k25** under the theme *"Technology for Fitness and Sports"*, FitAura guides users through personalized routines while monitoring hydration levels, mental state, and recovery status.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
----
+## Get started
 
-## 🚀 Features
+1. Install dependencies
 
-- 💧 **Hydration Alert System**  
-  Get real-time alerts based on your workout intensity, local weather, and water intake history.
+   ```bash
+   npm install
+   ```
 
-- 😌 **Mood-Based Activity Suggestions**  
-  Input your mood to receive AI-driven workout suggestions suited to your emotional state.
+2. Start the app
 
-- 🔁 **Recovery Score Calculator**  
-  Calculates readiness to train based on sleep hours, hydration, and activity load.
+   ```bash
+    npx expo start
+   ```
 
-- 🥗 **Personalized Nutrition Tips**  
-  Offers post-workout food suggestions based on your recovery level.
+In the output, you'll find options to open the app in a
 
-- 🌤️ **Weather-Adaptive Warm-up Timer**  
-  Adjusts warm-up recommendations according to temperature and humidity.
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
----
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## ⚙️ Tech Stack
+## Get a fresh project
 
-| Layer        | Tools / Services |
-|--------------|------------------|
-| **Frontend** | React Native (Expo) |
-| **Backend**  | Firebase (Auth + Firestore) |
-| **APIs**     | OpenWeatherMap API |
-| **AI**       | Rule-based logic + GPT API (for mood-based suggestions) |
-| **Design**   | Figma, Canva |
-| **Charts**   | Chart.js / Recharts |
+When you're ready, run:
 
----
+```bash
+npm run reset-project
+```
 
-## 📱 Screens (Planned)
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-- Home Dashboard  
-- Hydration Status + Alerts  
-- Mood Input + Activity Suggestion  
-- Recovery Report  
-- Nutrition Recommendation  
+## Learn more
 
----
+To learn more about developing your project with Expo, look at the following resources:
 
-## 👨‍💻 Team Stratos – GCEM Hacks 2k25
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-- Sayooj Simon  
-- Prajwal  
-- Rahul  
+## Join the community
 
----
+Join our community of developers creating universal apps.
 
-## 📌 Project Status
-
-✅ Idea Finalized  
-✅ Stack Chosen  
-🔄 In Development  
-📲 Demo Coming Soon!
-
----
-
-## 💡 Inspiration
-
-We noticed that while most fitness apps focus on workouts, few truly account for the **whole human experience** — hydration, mental state, and recovery. FitAura bridges that gap with personalized, science-backed guidance.
-
----
-
-## 🏁 License
-
-Built as a part of **GCEM Hacks 2k25 Hackathon**.  
-For demo and educational use only.
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
